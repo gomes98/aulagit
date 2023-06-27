@@ -51,3 +51,11 @@ git log --graph
 
 para ver as modificações de um commit:
 git show HASHDOCOMMIT
+
+Aula 11 Visualizando o diff:
+
+para visualizar as modificações antes de enviar:
+git diff
+
+para sair do git diff 
+digite q na janela do terminal
