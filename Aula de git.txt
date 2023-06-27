@@ -67,3 +67,6 @@ para comitar um arquivo que ja foi commitado:
 git commit -am "COMENTARIO"
 
 Aula 12 Desfazendo coisas:
+
+para desfazer a ultima alteração que não foi comitada:
+git checkout "NOMEDOARQUIVO"
