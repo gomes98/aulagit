@@ -59,3 +59,11 @@ git diff
 
 para sair do git diff 
 digite q na janela do terminal
+
+para visualizar o nome do arquivo modificado:
+git diff --name-only
+
+para comitar um arquivo que ja foi commitado:
+git commit -am "COMENTARIO"
+
+Aula 12 Desfazendo coisas:
