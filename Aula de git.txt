@@ -1,0 +1,24 @@
+aula 6 Configuração inicial:
+
+para adicionar um username no git em um usuário do SO é:
+git config --global user.name "TEUNOME"
+
+para adicionar um email no git em um usuário do SO é:
+git config --global user.email "TEUEMAIL"
+
+para configurar um editor no git em um usuário do SO é:
+git config --global core.editor comando do editor
+
+aula 7 inicializando um repositorio:
+
+para inicializar um repositorio entre na pasta e digite:
+git init
+
+
+Aula 9 O ciclo de vida dos status de seus arquivos:
+
+para mostrar os status dos aquivos use o comando:
+git status
+
+para adicionar um arquivo no git:
+git add "NOMEDOARQUIVO"
