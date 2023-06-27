@@ -134,3 +134,10 @@ git stash clear
 Aula 27 Alias para que te quero:
 para adicionar atalhos no comando git use
 git config --global alias.OATALHOQUEQUERUSAR COMANDOQUEQUERATALHAR
+
+
+Aula 28 Versionando com Tags:
+git tag -a 1.0.0 -m "AULA 28"
+este comando gera uma tag com uma versão com opção de baixar codigo fonte completo desta versão
+para enviar para o github
+git push origin master --tags
