@@ -70,3 +70,6 @@ Aula 12 Desfazendo coisas:
 
 para desfazer a ultima alteração que não foi comitada:
 git checkout "NOMEDOARQUIVO"
+
+para voltar a ultima alteração que ja foi add:
+git reset HEAD
