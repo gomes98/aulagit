@@ -113,3 +113,24 @@ git checkout NOMEDOBRANCH
 
 para deletar de branch:
 git branch -D NOMEDOBRANCH
+
+
+Aula 26 Git stash é lindo:
+
+git stash 
+este comando salva as alterações em outro lugar, não faz o commit
+
+depois quando quiser pegar novamente as alterações
+git stash apply
+ele devolve as alterações como estavam antes do git stash
+
+para ver o que tem pindurado no git stash
+git stash list
+
+para limpar o que tem pindurado no git stash
+git stash clear
+
+
+Aula 27 Alias para que te quero:
+para adicionar atalhos no comando git use
+git config --global alias.OATALHOQUEQUERUSAR COMANDOQUEQUERATALHAR
