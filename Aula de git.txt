@@ -137,7 +137,21 @@ git config --global alias.OATALHOQUEQUERUSAR COMANDOQUEQUERATALHAR
 
 
 Aula 28 Versionando com Tags:
+
 git tag -a 1.0.0 -m "AULA 28"
 este comando gera uma tag com uma versão com opção de baixar codigo fonte completo desta versão
+
 para enviar para o github
 git push origin master --tags
+
+
+Aula 29 Salvando sua sexta com Git Revert
+
+para voltar um commit porem não perder os dados:
+git revert HASH 
+o hash é o do commit com problema
+
+
+Aula 30 Apagando tags e branches remotos
+
+git push origin :NOMEDATAGOUBRANCH
