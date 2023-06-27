@@ -28,3 +28,26 @@ para fazer um comit deve:
 git commit -m "COMENTARIO"
 
 é importante que o COMENTARIO seja relevante ou ainda informe o que foi modificado
+
+Aula 10 Visualizando logs:
+
+para ver os logs devemos digitar:
+git log 
+
+para ver os logs com mais informações digitamos:
+git log --decorate
+
+para ver os logs com os autores:
+git log --author="NOMEDOAUTOR"
+
+para ver as contribuições:
+git shortlog
+
+para ver somente a quantidade de commits por usuário:
+git shortlog -sn
+
+mostra em forma grafica os commits:
+git log --graph
+
+para ver as modificações de um commit:
+git show HASHDOCOMMIT
