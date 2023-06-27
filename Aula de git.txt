@@ -22,3 +22,9 @@ git status
 
 para adicionar um arquivo no git:
 git add "NOMEDOARQUIVO"
+cada vez que o arquivo for modificado deve-se excutar este comando
+
+para fazer um comit deve:
+git commit -m "COMENTARIO"
+
+é importante que o COMENTARIO seja relevante ou ainda informe o que foi modificado
