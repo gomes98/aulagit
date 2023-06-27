@@ -73,3 +73,16 @@ git checkout "NOMEDOARQUIVO"
 
 para voltar a ultima alteração que ja foi add:
 git reset HEAD
+depois:
+git checkout "NOMEDOARQUIVO"
+
+variações do git reset:
+  git reset --soft "HASH"
+  volta e remove a comit com os arquivos prontos para serem comitados novamente STAGED
+  
+  git reset --mixed "HASH"
+  volta e  remove a comit com os arquivos prontos para serem comitados novamente MODIFIED
+
+  git reset --hard "HASH"
+  volta e remove a comit com os arquivos prontos para serem comitados novamente MODIFIED
+
