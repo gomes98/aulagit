@@ -86,3 +86,9 @@ variações do git reset:
   git reset --hard "HASH"
   volta e remove a comit com os arquivos prontos para serem comitados novamente MODIFIED
 
+
+Aula 15 Ligando repositório local a um remoto:
+
+git remote add origin URL DO RESPOSITORIO
+git branch -M main
+git push -u origin main
