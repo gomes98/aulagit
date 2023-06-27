@@ -94,6 +94,22 @@ git branch -M main
 git push -u origin main
 
 
-Aual 16 Enviando mudanças para um repositório remoto:
+Aula 16 Enviando mudanças para um repositório remoto:
 
 git push origin main 
+
+Aula 20 Criando um branch:
+
+para ver os branchs:
+git branch
+
+para criar um novo branch:
+git checkout -b NOMEDOBRANCH
+
+Aula 21 Movendo e deletando branches:
+
+para trocar de branch:
+git checkout NOMEDOBRANCH
+
+para deletar de branch:
+git branch -D NOMEDOBRANCH
